@@ -1,0 +1,54 @@
+body {
+    font-family: "Nanum Gothic";
+}
+
+.navbar, .card-title {
+    font-family: "Shadows Into Light";
+    letter-spacing: 3px;
+}
+
+.navbar {
+    padding:0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.portfolio {
+    padding: 0px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.portfolio-container {
+    padding: 20px;
+}
+
+.card-img-overlay {
+    background-color: #4aaaa5;
+    padding: 5%;
+    margin-top: 60%;
+    height: 20%;
+}
+
+.portfolio-link:link {
+    color: white;
+}
+
+.portfolio-link:visited {
+    color: black;
+}
+
+.portfolio-link:hover {
+    color: gray;
+}
+
+.portfolio-link:active {
+    color:red;
+}
