@@ -1,5 +1,13 @@
 body {
     font-family: "Nanum Gothic";
+    background: url(../images/brickwall/brickwall.png);
+}
+
+.content {
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
 }
 
 .navbar, .card-title {
@@ -18,6 +26,12 @@ body {
 
 .card {
     padding: 20px;
+    border: none;
+}
+
+.photo {
+    max-height: 160px;
+    max-width: 160px;
 }
 
 .portfolio {
@@ -26,8 +40,9 @@ body {
     width: 50%;
 }
 
-.portfolio-container {
-    padding: 20px;
+.portfolio-row {
+    width:100%;
+    margin: 0px;
 }
 
 .card-img-overlay {
@@ -51,4 +66,13 @@ body {
 
 .portfolio-link:active {
     color:red;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
 }
